@@ -1,0 +1,18 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": ["airbnb/base"],
+	"rules": {
+		"object-curly-newline": "off",
+		"object-curly-spacing": "off",
+		"linebreak-style": "off",
+		"no-plusplus": "off",
+		"eol-last": "off",
+    "max-len": ["error", 150],
+    "no-tabs": "off",
+    "indent": ["off", "tab"]
+	}
+}

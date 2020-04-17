@@ -1,0 +1,83 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	display: grid;
+	justify-content: center;	
+}
+
+.textarea {
+	width: 750px;
+	height: 80px;
+	resize: none;
+	border-radius: 4px;
+	border: 1px solid  #cccccc;
+	padding: 10px;
+}
+
+.keyboard {
+		max-width: 780px;
+    display: grid;
+    grid-template-columns: repeat(60, 8px);
+		grid-gap: 5px;	
+		padding-top: 10px;
+}
+
+.keyboard:after {		
+	content: "Клавиатура для Windows OS. Переключение языка ShiftLeft + AltLeft";
+	padding: 10px;
+	width: 500px;	
+}
+
+.keyboard__button {	
+	background-color: #dedede;	
+	line-height: 40px;
+	text-align: center;
+	border-radius: 4px;
+	user-select: none;
+}
+
+.keyboard__button4 {	
+	grid-column: span 4;	
+}
+
+.keyboard__button5 {	
+	grid-column: span 5;	
+}
+
+.keyboard__button6 {	
+	grid-column: span 6;	
+}
+
+.keyboard__button8 {	
+	grid-column: span 8;	
+}
+
+.keyboard__button10 {	
+	grid-column: span 10;	
+}
+
+.keyboard__button19 {	
+	grid-column: span 19;	
+}
+
+.keyboard__button:hover {
+	opacity: 0.8;	
+}
+.keyboard__button:active {
+	background-color: #99ff99;
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+.active {
+	background-color: #99ff99;
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
+.active1 {
+	background-color: #99ff99;
+	transform: scale(0.9);
+	transition: all 0.2s ease;
+}
+
